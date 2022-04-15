@@ -2,7 +2,8 @@
 This repository contains all of the codes and the datasets (included oroginal,cropped, and augmented). 
 
 Data_Preproecess.ipynb assigns extracts samples from the images, applies the annotations, and crops the images
-
+Cropped_df.csv is the date frame for the cropped images.
+Cropped_dfV2.csv is the date frame for the cropped images after deleting rows of images with width or height less than 10.
 AugmentationV2.ipynb applies the oversampling technique (data augmentation) and puts the augmented files into Augmented_WOM and Augmented_MIW. these images, along with the
 
 df_train is the data frame that has the image names/label for all training images inclusing the augmented images 
